@@ -21,8 +21,14 @@ const router = new VueRouter ({
                     name: 'MerchandisePage',
                     meta: {title: 'Vuefire 2022'},
                     component: importView('MerchandisePage'),
-                }
-            ]
+                },
+                {
+                    path: '/album',
+                    name: 'AlbumePage',
+                    meta: {title: 'Vuefire 2022'},
+                    component: importView('AlbumPage'),
+                },
+            ] 
         }
     ]
 });
